@@ -1,0 +1,82 @@
+body{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height:60px;
+    width:100%;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    /*border: 2px solid blue;*/
+    background-color: #012350;
+    font-size: 13px;
+    
+}
+#brand{
+float: left;
+margin-top: 0.5%;
+margin-left: 3%;
+color:white;
+font-size: 25px;
+font-weight: bold;
+
+}
+#brand >a{
+    color:white; !important
+
+}
+#social{
+float: right;
+margin-right: 2%;
+margin-top: 1%;
+}
+#slogan{
+    float: left;
+    margin-left: 6%;
+    margin-top: 40; 
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.sociallogo{
+    height: 35px;
+    
+}
+#content{
+    width: 80%;
+    display: inline-block ;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#filterdiv{
+    height: 550px;
+    width: 20%;
+    border: 2px solid gray;
+    float: left;
+}
+#contentdiv{
+    height: 800px;
+    width: 75%;
+    margin-left: 4%;
+    border: 2px solid blue;
+    float: left;
+}
+footer{
+   margin-top: 5%; 
+   height: 120px;
+   text-align: center;
+  /* border: 2px solid green;*/
+  background-color: #012350;
+  color: white;
+}
+.footdiv{
+    height: 70px;
+    width: 33%;
+    float: left;
+    border-right: 2px solid white;
+}
+.noborder{
+    border: none;
+}
